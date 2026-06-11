@@ -1,26 +1,10 @@
-# System files
-.DS_Store
-Thumbs.db
+# Deny everything by default — only explicitly listed files are tracked
+*
 
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
-*~
+# Core config files
+!.gitignore
+!CLAUDE.md
+!README.md
 
-# OS
-.AppleDouble
-.LSOverride
-
-# Machine-specific & runtime data
-session-state/
-logs/
-
-# User-specific configuration (contains credentials & preferences)
-config.json
-command-history-state.json
-
-# Platform-specific binaries & dependencies
-pkg/
-node_modules/
+# Copilot instruction files
+!copilot-instructions*.md
