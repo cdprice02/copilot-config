@@ -1,0 +1,26 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.AppleDouble
+.LSOverride
+
+# Machine-specific & runtime data
+session-state/
+logs/
+
+# User-specific configuration (contains credentials & preferences)
+config.json
+command-history-state.json
+
+# Platform-specific binaries & dependencies
+pkg/
+node_modules/
